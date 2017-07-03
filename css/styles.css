@@ -161,8 +161,8 @@ html, body {
         width: 70%; } }
   @media (max-width: 400px) {
     .menu {
-      height: 800px;
-      background-size: 100% 880px; }
+      height: 900px;
+      background-size: 100% 910px; }
       .menu .cabecera__titulo {
         font-size: 1.2em; }
       .menu .cabecera__nav {
@@ -227,7 +227,8 @@ html, body {
     .info {
       grid-column: 1 / 4;
       grid-row: 2;
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      margin-right: 40px; } }
 
 .categorias {
   grid-column: 3 / 4;
@@ -747,7 +748,7 @@ html, body {
         margin-top: 10px;
         margin-bottom: 10px; }
       .otros button {
-        margin-left: 30px; } }
+        margin-left: 50px; } }
   @media (max-width: 760px) {
     .otros {
       grid-row: 9; } }

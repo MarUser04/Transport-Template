@@ -240,8 +240,8 @@ html, body{
      }
 
      @media(max-width: 400px){
-           height:  800px;
-        background-size: 100% 880px;
+           height:  900px;
+        background-size: 100% 910px;
 
             .cabecera{
                 &__titulo{
@@ -300,8 +300,7 @@ html, body{
          grid-column: 1 / 4;
         grid-row: 2;
         margin-bottom: 0;
-       
-      
+       margin-right: 40px;
     }
 
    
@@ -773,7 +772,7 @@ html, body{
             }
 
             button{
-                margin-left: 30px;
+                margin-left: 50px;
             }
     }
 
